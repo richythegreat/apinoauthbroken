@@ -22,7 +22,7 @@ class AuthController extends Controller
             'user' => $user,
             'token' => $token
 
-        ];s
+        ];
     }
     public function login(Request $request)
     {
